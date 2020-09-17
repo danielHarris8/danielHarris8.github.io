@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css" />
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/index.css">
+</head>
+
+<body>
+    <button id="btnScrollToTop">
+        <i class="material-icons">arrow_upward</i>
+    </button>
+    <!-- Header Start -->
+    <header>
+        <!-- Nav Start -->
+        <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+            <a class="navbar-brand" href="/">Daniel</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item ">
+                        <a href="/" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a href="about.html" class="nav-link">About</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a href="study.html" class="nav-link">Study</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a href="story.html" class="nav-link">Story</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <!-- Slider Start -->
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" data-interval="7000">
+            <!-- <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            </ol> -->
+            <div class="carousel-inner">
+                <div class="carousel-item active "
+                    style="background-image: url('https://source.unsplash.com/CJlrFjNLyQc');">
+                    <div class="carousel-caption text-center">
+                        <h1 class="textHeader_d animate__animated animate__heartBeat" style="animation-delay: 0.5s;">Hi!
+                            哈囉</h1>
+                        <h3 class="textHeader_d animate__animated animate__bounceInLeft" style="animation-delay: 1s;">
+                            I'm Daniel</h3>
+                        <h3 class="textHeader_d  animate__animated animate__bounceInRight"
+                            style="animation-delay: 1.5s;">李承業</h3>
+                    </div>
+                </div>
+                <div class="carousel-item" style="background-image: url('https://source.unsplash.com/kqDEH7M2tGk');">
+                    <div class="carousel-caption text-center">
+                        <h1 class="textHeader_d animate__animated animate__bounce" style="animation-delay: 0.5s;">
+                            Sleeping 睡覺</h1>
+                        <h3 class="textHeader_d animate__animated animate__bounceInLeft" style="animation-delay: 1s;">
+                            在忙碌了日子</h3>
+                        <h3 class="textHeader_d animate__animated animate__bounceInRight"
+                            style="animation-delay: 1.5s;">可以好好睡覺，真的是最幸福的事了</h3>
+
+                    </div>
+                </div>
+                <div class="carousel-item" style="background-image: url('https://source.unsplash.com/Apj4nSemkzk');">
+                    <div class="carousel-caption text-center">
+                        <h1 class="textHeader_d animate__animated animate__bounce" style="animation-delay: 0.5s;">Dream
+                            夢想</h1>
+                        <h3 class="textHeader_d animate__animated animate__bounceInLeft" style="animation-delay: 1s;">
+                            別人可能覺得是笑話</h3>
+                        <h3 class="textHeader_d animate__animated animate__bounceInRight"
+                            style="animation-delay: 1.5s;">但我還是繼續向它前進</h3>
+                    </div>
+                </div>
+                <div class="carousel-item" style="background-image: url('https://source.unsplash.com/yykbf9LiS50');">
+                    <div class="carousel-caption text-center">
+                        <h1 class="textHeader_d animate__animated animate__bounce" style="animation-delay: 0.5s;">Belive
+                            信仰</h1>
+                        <h3 class="textHeader_d animate__animated animate__bounceInLeft" style="animation-delay: 1s;">
+                            不是例行公事</h3>
+                        <h3 class="textHeader_d animate__animated animate__bounceInRight"
+                            style="animation-delay: 1.5s;">而是生活態度</h3>
+                    </div>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                <svg width="5em" height="5em" viewBox="0 0 16 16" class="bi bi-arrow-left" fill="currentColor"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd"
+                        d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8z" />
+                </svg>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                <svg width="5em" height="5em" viewBox="0 0 16 16" class="bi bi-arrow-right" fill="currentColor"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd"
+                        d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
+                </svg>
+                <span class="sr-only">Next</span>
+            </a>
+
+        </div>
+    </header>
+    <!-- Header End -->
+    <main>
+        <section>
+            <div class="container-fluid ">
+                <div class="row">
+
+                    <div class="col-12 col-md-6">
+                        <div class="image imgS1 animate__animated"></div>
+                    </div>
+
+                    <div class="col-12 col-md-6">
+                        <div class="content animate__animated">
+                            <div class="txt ">
+                                <h1>介紹自己</h1>
+                                <h3>小時候喜歡組裝彈珠人，後來喜歡拆東西。拆過電腦主機、筆電、手機等東西。期許自己能將這份好奇心保持下去。</h3>
+
+                                <a class="btn" href="/about/about.html">看更多 ...</a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </section>
+        <section>
+            <div class="container-fluid ">
+                <div class="row">
+
+                    <div class="col-12 col-md-6">
+                        <div class="image imgS2 animate__animated"></div>
+                    </div>
+
+                    <div class="col-12 col-md-6">
+                        <div class="content animate__animated">
+                            <div class="txt ">
+                                <h1>不斷學習</h1>
+                                <h3>不斷從失敗中成長。學習不只是增加自己的知識和技能，也是認識自己的一種方式。</h3>
+
+                                <a class="btn" href="study/study.html">看更多 ...</a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </section>
+        <section>
+            <div class="container-fluid ">
+                <div class="row">
+
+                    <div class="col-12 col-md-6">
+                        <div class="image imgS3 animate__animated"></div>
+                    </div>
+
+                    <div class="col-12 col-md-6">
+                        <div class="content animate__animated">
+                            <div class="txt  ">
+                                <h1>寫下紀錄</h1>
+                                <h3>寫下覺得值得懷念的點點滴滴，因為這些經歷才會造就現在的自己。</h3>
+
+                                <a class="btn" href="story/story.html">看更多 ...</a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </section>
+    </main>
+    <footer>
+        <div class="container-fluid ">
+            <div class="row text-center">
+                <div class="col">
+                    <p>Email : good7712355@yahoo.com.tw</p>
+                </div>
+            </div>
+            <div class="row text-center">
+                <div class="col ">
+                    <p>Copyright &copy; 2020 by Daniel</p>
+
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+        crossorigin="anonymous"></script>
+
+    <script src="/js/index.js"></script>
+</body>
+
+</html>
