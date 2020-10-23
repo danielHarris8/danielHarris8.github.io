@@ -43,6 +43,10 @@ section{
     background-image: url('../img/train.jpg');
 }
 
+.imgS3{
+    background-image: url('../img/GDG.jpg');
+}
+
 footer{
     
     padding-top: 20px;

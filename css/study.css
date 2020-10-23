@@ -45,6 +45,10 @@ section{
     background-image: url('../img/raspberry.jpg');
 }
 
+.imgS3{
+    background-image: url('../img/8051.jpg');
+}
+
 footer{
     
     padding-top: 20px;
