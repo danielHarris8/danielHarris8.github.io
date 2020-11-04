@@ -47,6 +47,14 @@ section{
     background-image: url('../img/GDG.jpg');
 }
 
+.imgS4{
+    background-image: url('../img/foreign.jpg');
+}
+
+.imgS5{
+    background-image: url('../img/airplane.jpg');
+}
+
 footer{
     
     padding-top: 20px;
